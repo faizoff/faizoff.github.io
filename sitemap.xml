@@ -2,7 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://faizoff.github.io/</loc>
+    <loc>https://faizoff.github.io/about/about/</loc>
+    <lastmod>2016-12-23T21:51:02+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://faizoff.github.io/categories/about/</loc>
+    <lastmod>2016-12-23T21:51:02+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://faizoff.github.io/about/</loc>
+    <lastmod>2016-12-23T21:51:02+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://faizoff.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://faizoff.github.io/</loc>
+    <lastmod>2016-12-23T21:51:02+05:30</lastmod>
     <priority>0</priority>
   </url>
   
