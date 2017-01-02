@@ -10,14 +10,14 @@
 <link rel="stylesheet" href="https://faizoff.github.io/css/style.css" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
 <link rel="alternate" href="https://faizoff.github.io/index.xml" type="application/rss+xml" title="Weblog">
-<title>Abouts - Weblog</title>
+<title>About - Weblog</title>
 </head>
 <body>
 
 <header>
   <div class="container clearfix">
     <a class="path" href="https://faizoff.github.io/">[Weblog]</a>
-    <span class="caret"># _</span>
+    <a class="path" href="https://faizoff.github.io//about/">[About]</a>
     <div class="right">
       
     </div>
@@ -26,32 +26,64 @@
 
 <div class="container">
 
-<main role="main" class="article-list">
-  <h1 class="list-title">Abouts</h1>
+
+<main role="main" class="article">
   
-    
-<article class="list-item" itemscope itemtype="http://schema.org/Blog">
-  <h2 class="headline" itemprop="headline"><a href="https://faizoff.github.io/about/about/">About</a></h2>
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="meta">
 
-    <span class="key">published on</span>
-    <span class="val"><time itemprop="datePublished" datetime="2016-12-23">December 23, 2016</time></span>
+
 
   </div>
-  <section class="summary">
-    This blog is kind of a weblog of my learnings and a collection of random musings. Don&rsquo;t expect it to help you conquer Earth or clean your laundry. You are free to use the whole or part of the content in whichever way you want, though I am not responsible if that burns your hair or kills your cat.
-Disclaimer: The views and thoughts expressed here don&rsquo;t necessarily reflect that of my employer.  <a href="https://faizoff.github.io/about/about/">Read More...</a>
+  <h1 class="headline" itemprop="headline">About</h1>
+  <section class="body" itemprop="articleBody">
+    <p>This blog is kind of a weblog of my learnings and a collection of random musings. Don&rsquo;t expect it to help you conquer Earth or clean your laundry. You are free to use the whole or part of the content in whichever way you want, though I am not responsible if that burns your hair or kills your cat.</p>
+
+<p><strong><em>Disclaimer</em></strong>: The views and thoughts expressed here don&rsquo;t necessarily reflect that of my employer.</p>
+
   </section>
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+    var url = window.location.href;
+    var sanitized = url
+           .replace(/^https\:\/\//, '') 
+           .replace(/\/+/g, '/')        
+           .replace(/\/+$/, '');
+    url = 'https://' + sanitized;
+    
+    var about_url = "https:\/\/faizoff.github.io\//about/"
+    var about_sanitized = about_url
+           .replace(/^https\:\/\//, '') 
+           .replace(/\/+/g, '/')        
+           .replace(/\/+$/, '');
+    about_url = 'https://' + about_sanitized;
+    
+    if (url == about_url)
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'limboweblog';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 </article>
 
-  
 </main>
 
 </div>
 
 <footer>
   <div class="container">
-    <span class="copyright">&copy; 2016  Faiz - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> | <a href="https://gohugo.io/">Powered by Hugo</a> | Theme created by <a href="https://github.com/htdvisser/">Hylke Visser</a> </span>
+    <span class="copyright">&copy; 2017 Faiz - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> | <a href="https://gohugo.io/">Powered by Hugo</a> | Theme created by <a href="https://github.com/htdvisser/">Hylke Visser</a> </span>
   </div>
 </footer>
 

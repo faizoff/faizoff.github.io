@@ -5,15 +5,14 @@
     <link>https://faizoff.github.io/index.xml</link>
     <description>Recent content on Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 23 Dec 2016 21:51:02 +0530</lastBuildDate>
     <atom:link href="https://faizoff.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://faizoff.github.io/about/about/</link>
-      <pubDate>Fri, 23 Dec 2016 21:51:02 +0530</pubDate>
+      <link>https://faizoff.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://faizoff.github.io/about/about/</guid>
+      <guid>https://faizoff.github.io/about/</guid>
       <description>&lt;p&gt;This blog is kind of a weblog of my learnings and a collection of random musings. Don&amp;rsquo;t expect it to help you conquer Earth or clean your laundry. You are free to use the whole or part of the content in whichever way you want, though I am not responsible if that burns your hair or kills your cat.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Disclaimer&lt;/em&gt;&lt;/strong&gt;: The views and thoughts expressed here don&amp;rsquo;t necessarily reflect that of my employer.&lt;/p&gt;
